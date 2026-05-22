@@ -92,13 +92,13 @@ export function Footer() {
           {/* Brand column */}
           <div className="col-span-2 md:col-span-1">
             <a href="/" className="flex items-center group w-fit">
-              <div className="relative w-10 h-10 overflow-hidden rounded-lg">
+              <div className="relative w-28 h-12 overflow-hidden">
                 <Image
                   src="/logo.webp"
                   alt="Logo"
                   fill
-                  className="object-contain group-hover:scale-110 transition-transform duration-300"
-                  sizes="32px"
+                  className="object-contain group-hover:scale-105 transition-transform duration-300"
+                  sizes="(max-width: 768px) 96px, 112px"
                 />
               </div>
             </a>

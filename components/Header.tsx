@@ -29,13 +29,13 @@ export function Header() {
 
           {/* Logo */}
           <a href="/" className="flex items-center shrink-0 group">
-            <div className="relative w-10 h-10 overflow-hidden rounded-lg">
+            <div className="relative w-24 h-10 overflow-hidden">
               <Image
                 src="/logo.webp"
                 alt="Logo"
                 fill
-                className="object-contain group-hover:scale-110 transition-transform duration-300"
-                sizes="32px"
+                className="object-contain group-hover:scale-105 transition-transform duration-300"
+                sizes="(max-width: 768px) 80px, 96px"
               />
             </div>
           </a>
